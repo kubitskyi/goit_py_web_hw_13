@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "goit-py-web-hw-12"
+version = "0.1.0"
+description = ""
+authors = ["Yaroslav Kubitskyi <fenixm22@gmail.com>"]
+package-mode = false
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+sqlalchemy = "^2.0.35"
+alembic = "^1.13.2"
+psycopg2 = "^2.9.9"
+pydantic = "^2.9.2"
+email-validator = "^2.2.0"
+libgravatar = "^1.0.4"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.10"
+fastapi-mail = "^1.4.1"
+bcrypt = "4.0.1"
+redis = "^5.1.0"
+fastapi-limiter = "^0.1.6"
+pydantic-settings = "^2.5.2"
+cloudinary = "^1.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
